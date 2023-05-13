@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: small;
 }
 
 .container-small-card-separator{
