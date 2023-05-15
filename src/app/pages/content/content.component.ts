@@ -8,9 +8,9 @@ import {dataFake} from '../../data/dataFake'
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
-  photoCover:string = "https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png"
+  photoCover:string = ""
   cotentTitle:string = ""
-  contentDescription:string = "ttttttttttttttttttt"
+  contentDescription:string = ""
   private id:string | null = "0"
 
   constructor(
